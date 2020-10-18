@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/mainActBkg">
+
+
+    <TextView
+        android:layout_width="241dp"
+        android:layout_height="80dp"
+        android:layout_margin="0dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Give me five!"
+        android:textColor="@android:color/background_light"
+        android:textSize="28dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_fashion" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="291dp"
+        android:layout_height="36dp"
+        android:layout_margin="0dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Go without login"
+        android:textColor="#8BC34A"
+        android:textStyle="bold" />
+
+</LinearLayout>

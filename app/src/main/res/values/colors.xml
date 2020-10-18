@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#587B80</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="mainActBkg">#009688</color>
+    <color name="colorPrimari">#3F51B5</color>
+    <color name="navBar">#8BC34A</color>
+    <color name="bkgModal">#6D7711</color>
+</resources>
